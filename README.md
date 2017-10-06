@@ -2,9 +2,11 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/VKBGroup/autoinject/blob/master/LICENSE) [![NuGet](https://img.shields.io/nuget/v/Nuget.Core.svg)](https://www.nuget.org/packages/VKB.AutoInject/) [![](https://img.shields.io/badge/.net%20core-2.0-AAC031.svg)]()
 
 ### What?
+---
 **AutoInject** is a very simple library that allows you to map your dependencies inside the concrete implementations.
 
 ### Why?
+---
 Hiding the depency mappings away in the Startup class or some other class makes for un-intuative usage. It's hard to know which service 
 implementations are set for injection and what their scope will be without knowing where to look and what to look for. 
 It also causes breaking changes if you switch a referenced project with only service implementations for a new one.
@@ -16,6 +18,7 @@ It also causes breaking changes if you switch a referenced project with only ser
  - Easy to swap out implementations
  
  ### How?
+---
  #### Step 1
  Grab the source and build it, download the latest binary release or get the package on NuGet.
  
@@ -67,6 +70,7 @@ public void ConfigureServices(IServiceCollection services)
  ```
  
  ### And?
+---
  What about DbContext?
  
  #### Step 1
@@ -117,6 +121,7 @@ public class YourEFDbContext : DbContext
  ```
  
  ### Done?
+---
  Yes! You are all mapped up and ready to go.
  
  
