@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <RootNamespace>com.VKB.AutoInject</RootNamespace>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageId>VKB.AutoInject</PackageId>
+    <Authors>Gerhard Davids glacieredpyro@gmail.com</Authors>
+    <Company>VKB</Company>
+    <Description>a Simple attribute based DI mapper for dotnet core.</Description>
+    <Copyright>Copyright (C) VKB 2017</Copyright>
+    <PackageTags>DI, Attribute, core, 2.0</PackageTags>
+    <PackageReleaseNotes>Intial public release</PackageReleaseNotes>
+    <AssemblyVersion>0.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
